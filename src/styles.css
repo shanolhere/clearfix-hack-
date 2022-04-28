@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.box {
+  float: left;
+  width: 30%;
+  background: orange;
+  color: white;
+  font-weight: bolder;
+  font-size: 2rem;
+  text-align: center;
+  padding: 50px;
+  margin: 30px;
+}
+.clearfix::before {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* .clearfix {
+  overflow: auto;
+}  try this also ..that way you can understand y overflow is not used.*/
